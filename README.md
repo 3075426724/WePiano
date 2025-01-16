@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/76367755-1127-4606-8a55-6fff310cabf1)## 功能介绍 
+## 功能介绍 
 ![image](https://github.com/user-attachments/assets/38b8b23c-8525-4358-b97a-4b03cd475187)
 
  琴房预定小程序，解决琴房难找，日程时间难协调等痛点，提升效率降低组织成本。可以查询某个时间段的空闲琴房，查询某个琴房的空闲时间段；琴房状态一目了然，完美解决琴房时间冲突和空间浪费问题。前后端完整代码，包括选择琴房，修改日期、时间，以及备注进行琴房创建。预约成功后，可以查看预约详情。后台功能包括：琴房创建，预定记录查询，生成单个琴房小程序码海报，发布公告，用户注册审核等。
@@ -18,6 +18,7 @@
 - 如有疑问，欢迎骚扰联系我：开发交流，技术分享，问题答疑，功能建议收集，版本更新通知，安装部署协助，小程序开发定制等。
 - 俺的微信: 
  
+![image](https://github.com/user-attachments/assets/5c71fd0f-79fa-411c-b5bd-ec60ae07a8f2)
 
 
 
@@ -32,6 +33,7 @@
 
 
 ## 截图
+![image](https://github.com/user-attachments/assets/76367755-1127-4606-8a55-6fff310cabf1)
 
 ![image](https://github.com/user-attachments/assets/dd107b39-33de-485f-bb2c-72c5b3f9984d)
 ![image](https://github.com/user-attachments/assets/4a659fe9-42b2-4b13-a147-25e087fa508d)
