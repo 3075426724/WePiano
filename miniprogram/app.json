@@ -1,0 +1,96 @@
+{
+	"pages": [
+		"projects/meetingpiano/pages/default/index/default_index",
+		"projects/meetingpiano/pages/about/index/about_index",
+		"projects/meetingpiano/pages/search/search",
+		"projects/meetingpiano/pages/my/index/my_index",
+		"projects/meetingpiano/pages/my/reg/my_reg",
+		"projects/meetingpiano/pages/my/edit/my_edit",
+		"projects/meetingpiano/pages/my/foot/my_foot",
+		"projects/meetingpiano/pages/my/fav/my_fav",
+		"projects/meetingpiano/pages/news/index/news_index",
+		"projects/meetingpiano/pages/news/detail/news_detail",
+		"projects/meetingpiano/pages/admin/news/list/admin_news_list",
+		"projects/meetingpiano/pages/admin/news/add/admin_news_add",
+		"projects/meetingpiano/pages/admin/news/edit/admin_news_edit",
+		"projects/meetingpiano/pages/admin/setup/about/admin_setup_about",
+		"projects/meetingpiano/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/meetingpiano/pages/admin/setup/qr/admin_setup_qr",
+		"projects/meetingpiano/pages/admin/index/home/admin_home",
+		"projects/meetingpiano/pages/admin/index/login/admin_login",
+		"projects/meetingpiano/pages/admin/content/admin_content",
+		"projects/meetingpiano/pages/admin/mgr/log/admin_log_list",
+		"projects/meetingpiano/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/meetingpiano/pages/admin/mgr/list/admin_mgr_list",
+		"projects/meetingpiano/pages/admin/mgr/add/admin_mgr_add",
+		"projects/meetingpiano/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/meetingpiano/pages/admin/user/list/admin_user_list",
+		"projects/meetingpiano/pages/admin/user/detail/admin_user_detail",
+		"projects/meetingpiano/pages/admin/user/export/admin_user_export",
+		"projects/meetingpiano/pages/enroll/index/enroll_index",
+		"projects/meetingpiano/pages/enroll/join/enroll_join",
+		"projects/meetingpiano/pages/enroll/detail/enroll_detail",
+		"projects/meetingpiano/pages/enroll/my_join_list/enroll_my_join_list",
+		"projects/meetingpiano/pages/enroll/my_join_detail/enroll_my_join_detail",
+		"projects/meetingpiano/pages/enroll/join_edit/enroll_join_edit",
+		"projects/meetingpiano/pages/enroll/calendar/enroll_calendar",
+		"projects/meetingpiano/pages/admin/enroll/list/admin_enroll_list",
+		"projects/meetingpiano/pages/admin/enroll/add/admin_enroll_add",
+		"projects/meetingpiano/pages/admin/enroll/edit/admin_enroll_edit",
+		"projects/meetingpiano/pages/admin/enroll/join_list/admin_enroll_join_list",
+		"projects/meetingpiano/pages/admin/enroll/export/admin_enroll_export",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#AC754E",
+		"navigationBarTitleText": "琴房预约小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#AC754E",
+		"list": [
+			{
+				"pagePath": "projects/meetingpiano/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/meetingpiano/images/tabbar/home.png",
+				"selectedIconPath": "/projects/meetingpiano/images/tabbar/home_cur.png"
+			}, 
+			{
+				"pagePath": "projects/meetingpiano/pages/enroll/index/enroll_index",
+				"text": "琴房",
+				"iconPath": "/projects/meetingpiano/images/tabbar/enroll.png",
+				"selectedIconPath": "/projects/meetingpiano/images/tabbar/enroll_cur.png"
+			},
+			{
+				"pagePath": "projects/meetingpiano/pages/enroll/calendar/enroll_calendar",
+				"text": "多彩校园",
+				"iconPath": "/projects/meetingpiano/images/tabbar/day.png",
+				"selectedIconPath": "/projects/meetingpiano/images/tabbar/day_cur.png"
+			},
+			{
+				"pagePath": "projects/meetingpiano/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/meetingpiano/images/tabbar/my.png",
+				"selectedIconPath": "/projects/meetingpiano/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
